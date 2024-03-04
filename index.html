@@ -1,125 +1,130 @@
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Vaibhavi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "inter", sans-serif;
+      }
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Vaibhavi</title>
-  <style>
-*{
-  margin:0px;
-  padding:0px;
-  box-sizing:border-box;
-  
-}
-body{
-margin:20px auto;
-  font-family:'inter', sans-serif;
-  
-}
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        background-image: url(20231015_133641.jpg);
+        background-size: cover;
+        margin: 50px auto;
+        width: 1200px;
+        height: 1200px;
+        background-color: #087f5b;
+        /* display: flex;
+        justify-content: end;
+        align-items: center; */
+        /* padding: 24px; */
+        /* align-content: end;
+        justify-content: end; */
+      }
 
+      h1 {
+        font-weight: 700;
+        grid-column: 1/-1;
+        text-transform: uppercase;
+        letter-spacing: -0.5px;
 
-html {
-  height: 100%;
-  width: 100%;
-}
-.container{
-width:auto;
-background-color:#087f5b;
-  display:grid;
-  justify-content:center;
-  align-items: center;
-  gap:60px;
-  grid-template-columns: 800px 1fr;
-padding:20px;
-}
+        font-size: 84px;
+        margin-bottom: 14px;
+      }
+      /* img {
+        width: 800px;
+        object-fit: cover;
 
-  
-h1{
-  font-weight:700;
-  grid-column:1/-1;
-  text-transform:uppercase;
-  font-size:32px;
-  margin-bottom:14px;
-  }
-img{
-width:800px;
-  object-fit: cover;
-  
-}
-p{
-font-weight:300;
-  display: block;
-  
-}
+      } */
+      p {
+        font-weight: 500;
+        display: block;
+        margin-bottom: 14px;
+        color: #fff;
+        text-shadow: #2c2c2c 1px 1px 10px;
+      }
 
+      .description {
+        color: #ffa94d;
+        grid-column: 1/5;
+        grid-row: 3/4;
+        padding: 34px;
+        justify-items: end;
+        align-items: stretch;
+        text-align: end;
+        backdrop-filter: blur(2px);
+      }
+      .button {
+        display: inline-block;
+        margin: 8px;
+        text-transform: uppercase;
+        justify-self: start;
+        align-self: start;
+      }
 
-.description{
+      .button:link {
+        background-color: #ffa94d;
+        padding: 18px 34px;
+        border-radius: 24px;
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+      }
 
-  color:#fff;
-}
-.button{ display:inline-block;
-       margin:8px;}
+      .button:hover {
+        background-color: #ff922b;
+        padding: 18px 34px;
+        border-radius: 24px;
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+      }
+      .button:visited,
+      .button:active {
+        color: #fff;
+        background-color: #ff922b;
+        padding: 18px 34px;
+        border-radius: 24px;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 14px;
+      }
+    </style>
+  </head>
 
-.button:link{
-  background-color: #ffa94d;
-    padding:18px 34px;
-  border-radius:24px;
-display: inline-block;
-  text-decoration:none;
-color: #fff;
-  font-size:14px;
-  
-  
-}
+  <body>
+    <div class="container">
+      <!-- <img src="20231015_133641.jpg" width="800px" alt="vaibhavi mahajan" /> -->
+      <div class="description">
+        <h1>Vaibhavi Mahajan</h1>
+        <p>
+          This is vaibhavi Mahajan the one and only one residing from udhampur
+        </p>
+        <a
+          href=" https://www.instagram.com/__milesawayywayyyawayyyy?igsh=MXdqbmtkNTZtbjRkcg==   "
+          class="button"
+          >instagram</a
+        >
+      </div>
+    </div>
 
-.button:hover{
-background-color :#ff922b;
-  padding:18px 34px;
-  border-radius:24px;
-display:inline-block;
-  text-decoration:none;
-color: #fff;
-  font-size:14px;
-
-
-
-}
-  .button:visited,.button:active{
-    color: #fff;
-    background-color :#ff922b;
-  padding:18px 34px;
-  border-radius:24px;
-display: inline-block;
-  text-decoration:none;
-  font-size:14px;
-    
-    
-
-}
-
-  
-
-    
-  </style>
-</head>
-
-<body>
-  <div class="container">
-    
-  <img src="20231015_133641.jpg" width="800px" alt="vaibhavi mahajan"/>
-  <div class="description">
-    <h1>
-     Vaibhavi Mahajan</h1>
-     <p>This is vaibhavi Mahajan the one and only one residing  from udhampur </p>
-     <a href=" https://www.instagram.com/__milesawayywayyyawayyyy?igsh=MXdqbmtkNTZtbjRkcg==   " class="button">insta</a>
-  </div>
-  
-     
-  </div>
-  
-   
-  
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
